@@ -1,0 +1,19 @@
+{
+  "name": "web3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview",
+    "deploy": "npm run build && node scripts/deploy.js"
+  },
+  "author": "Aman",
+  "license": "ISC",
+  "dependencies": {
+    "vite": "^2.5.7",
+    "web3.storage": "^3.3.2"
+  }
+}
